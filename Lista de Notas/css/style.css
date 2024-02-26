@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+}
+
+#content {
+   
+    width: 50%;
+    height: 50%;
+    float: left;
+
+}
+
+
+#form-student {
+    float: right;
+    width: 50%;
+    height: 50%;
+
+}
+
+.form-groupl {
+    padding: 10px;
+}
+
+.form-groupl input {
+    background-color: rgb(138, 138, 138);
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+}
+
+.btn-sucesse {
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    margin-top: 15px;
+    margin-left: 40px;
+    box-shadow: 2px 2px 1px 1px #000;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+thead tr {
+    border-bottom: solid 3px #444;
+}
+
+tbody tr:hover {
+    background-color: #dedede;
+}
+
+tfoot tr:hover {
+    background-color: #dedede;
+}
+
+.delete-student {
+    background-color: red;
+    color: white;
+}
+
+.edit-student {
+    background-color: blue;
+    color: white;
+}

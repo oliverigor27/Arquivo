@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lista</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header id="top">
+       
+    </header>
+
+    <nav id="menu">
+            <ul>
+                <li>Home</li>
+                <li>Calc</li>
+            </ul>
+        </nav>
+
+    <section id="content">
+        <h1 class="title-center">Lista de produtos</h1>
+
+        <table class="table-space">
+            
+            <thead class="table-form">
+                <tr>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                    <th>Data de Valide</th>
+                </tr>
+            </thead>
+
+            <tbody id="table-add">
+                <tr>
+
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <aside id="right-align">
+            <h1 class="title-top">Formulário</h1>
+
+            <form role="form" id="form-create">
+                
+                <div class="form-groupl">
+                    <h4>Nome do Produto</h4>
+                    <input type="text" name="name" id="nameId" placeholder="Nome do produto">
+                </div>
+
+                <div class="form-groupl">
+                    <h4>Valor do Produto</h4>
+                    <input type="text" name="price" id="priceId" placeholder="Valor do Produto"> 
+                </div>
+
+                <div class="form-groupl">
+                    <h4>Data de Validade</h4>
+                    <input type="date" name="expiration" id="expiration-date">
+                </div>
+
+                <button type="submit" class="btn btn-sucesse destaque">Enviar</button>
+            </form>
+        </aside>
+
+        <script src="models/model.js"></script>
+        <script src="controller/listController.js"></script>
+        <script src="script/index.js"></script>
+</body>
+</html>

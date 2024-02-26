@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lista de Notas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="content">
+        <h1>Notas dos Alunos</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome do Anulo</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Nota 3</th>
+                </tr>
+            </thead>
+
+            <tbody id="table-add">
+           
+            </tbody>
+
+
+        </table>
+
+    </section>
+
+    <aside id="form-student">
+        <h1>Formulário</h1>
+
+        <form role="form" id="form-student-date" class="form-groupl">
+            <div>
+                <h4>Nome do Aluno</h4>
+                <input type="text" name="name" id="student-name" placeholder="Digite o nome do aluno">
+            </div>
+
+            <div>
+                <h4>Primeira nota</h4>
+                <input type="number" name="noteone" id="student-note-one" class="student-noote">
+            </div>
+
+            <div>
+                <h4>Segunda Nota</h4>
+                <input type="number" name="notetwo" id="student-note-tow" class="student-noote">
+            </div>
+
+            <div>
+                <h4>Terceira Nota</h4>
+                <input type="number" name="notethree" id="student-note-three" class="student-noote">
+            </div>
+
+            <button type="submit" class="btn-sucesse">Submit</button>
+        </form>
+
+    </aside>
+
+
+    <script src="models/model.js"></script>
+    <script src="controller/NoteController.js"></script>
+    <script src="script/index.js"></script>
+</body>
+</html>

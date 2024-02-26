@@ -1,0 +1,1 @@
+let listController = new ListController("form-create", "table-add")
